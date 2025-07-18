@@ -1,0 +1,22 @@
+            body {
+                background-image: linear-gradient(to right, rgb(248, 86, 74), orange);
+
+            }
+            h1 {
+                text-align: center;
+                background-color: brown;
+                text-decoration-color: coral;
+                text-shadow: 10cm;
+                color: aliceblue;
+            }
+            p {
+                background-attachment: fixed;
+                background-color: violet;
+                behavior: unset;
+                color: crimson;
+            }
+            div {
+                background-color: rgb(240, 229, 81);
+                color: antiquewhite;
+            }
+            

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="grid.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px;
+            gap: 10px;
+        }
+
+        .grid-item {
+            background-color: #44a8b3;
+            color: white;
+            display: grid;
+            place-items: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">1
+        </div>
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">2
+        </div>
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">3
+        </div>
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">4
+        </div>
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">5
+        </div>
+        <div class="grid-item"><img
+                src="https://th.bing.com/th/id/OIP.YStozDiRWuUlT8T9Tmo45QHaEo?w=292&h=182&c=7&r=0&o=7&pid=1.7&rm=3"
+                height="50px" width="50px">6
+        </div>
+    </div>
+</body>
+
+</html>
